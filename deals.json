@@ -1,10 +1,12 @@
 {
  "snapshot_date": "2026-10-22",
- "generated_at_wib": "2026-10-22 12:43",
+ "generated_at_wib": "2026-10-22 14:17",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 50,
   "hotel_cities": 11,
+  "hotel_countries": 9,
+  "cities_without_country": [],
   "routes": 68,
   "fs_nonstop_routes": 13,
   "days_window": 30,
@@ -18,6 +20,18 @@
   "status": "ada",
   "rows": [
    {
+    "hotel": "The Westin Resort Nusa Dua Bali",
+    "city": "Bali",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 140.0,
+    "median_usd_of_fridays": 173.0,
+    "fridays_compared": 6,
+    "pct_below_median": 19.1,
+    "observed": "2026-10-22",
+    "country": "Indonesia"
+   },
+   {
     "hotel": "Pullman Phuket Panwa Beach Resort",
     "city": "Phuket",
     "stars": "5",
@@ -26,29 +40,8 @@
     "median_usd_of_fridays": 212.5,
     "fridays_compared": 6,
     "pct_below_median": 44.0,
-    "observed": "2026-10-22"
-   },
-   {
-    "hotel": "Grand Hyatt Seoul",
-    "city": "Seoul",
-    "stars": "5",
-    "cheapest_friday": "2026-11-27",
-    "price_usd_per_night": 304.0,
-    "median_usd_of_fridays": 496.0,
-    "fridays_compared": 5,
-    "pct_below_median": 38.7,
-    "observed": "2026-10-22"
-   },
-   {
-    "hotel": "Mandarin Oriental Taipei",
-    "city": "Taipei",
-    "stars": "5",
-    "cheapest_friday": "2026-12-04",
-    "price_usd_per_night": 494.0,
-    "median_usd_of_fridays": 770.0,
-    "fridays_compared": 5,
-    "pct_below_median": 35.8,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "Thailand"
    },
    {
     "hotel": "Novotel Phuket Kamala Beach",
@@ -59,7 +52,8 @@
     "median_usd_of_fridays": 184.5,
     "fridays_compared": 6,
     "pct_below_median": 31.7,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "Thailand"
    },
    {
     "hotel": "Phuket Marriott Resort Merlin Beach",
@@ -70,29 +64,8 @@
     "median_usd_of_fridays": 256.5,
     "fridays_compared": 6,
     "pct_below_median": 30.2,
-    "observed": "2026-10-22"
-   },
-   {
-    "hotel": "Parkroyal Collection Marina Bay",
-    "city": "Singapore",
-    "stars": "5",
-    "cheapest_friday": "2026-11-27",
-    "price_usd_per_night": 238.0,
-    "median_usd_of_fridays": 328.5,
-    "fridays_compared": 6,
-    "pct_below_median": 27.5,
-    "observed": "2026-10-22"
-   },
-   {
-    "hotel": "Signiel Seoul",
-    "city": "Seoul",
-    "stars": "5",
-    "cheapest_friday": "2026-12-04",
-    "price_usd_per_night": 515.0,
-    "median_usd_of_fridays": 692.5,
-    "fridays_compared": 6,
-    "pct_below_median": 25.6,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "Thailand"
    },
    {
     "hotel": "Keemala Phuket",
@@ -103,7 +76,92 @@
     "median_usd_of_fridays": 832.0,
     "fridays_compared": 6,
     "pct_below_median": 23.6,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "Thailand"
+   },
+   {
+    "hotel": "Novotel Bangkok Sukhumvit 20",
+    "city": "Bangkok",
+    "stars": "4",
+    "cheapest_friday": "2026-10-30",
+    "price_usd_per_night": 95.0,
+    "median_usd_of_fridays": 116.0,
+    "fridays_compared": 6,
+    "pct_below_median": 18.1,
+    "observed": "2026-10-22",
+    "country": "Thailand"
+   },
+   {
+    "hotel": "Parkroyal Collection Marina Bay",
+    "city": "Singapore",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 238.0,
+    "median_usd_of_fridays": 328.5,
+    "fridays_compared": 6,
+    "pct_below_median": 27.5,
+    "observed": "2026-10-22",
+    "country": "Singapore"
+   },
+   {
+    "hotel": "Marina Bay Sands",
+    "city": "Singapore",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 716.0,
+    "median_usd_of_fridays": 879.0,
+    "fridays_compared": 6,
+    "pct_below_median": 18.5,
+    "observed": "2026-10-22",
+    "country": "Singapore"
+   },
+   {
+    "hotel": "Conrad Centennial Singapore",
+    "city": "Singapore",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 262.0,
+    "median_usd_of_fridays": 320.0,
+    "fridays_compared": 6,
+    "pct_below_median": 18.1,
+    "observed": "2026-10-22",
+    "country": "Singapore"
+   },
+   {
+    "hotel": "Sheraton Towers Singapore",
+    "city": "Singapore",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 193.0,
+    "median_usd_of_fridays": 229.5,
+    "fridays_compared": 6,
+    "pct_below_median": 15.9,
+    "observed": "2026-10-22",
+    "country": "Singapore"
+   },
+   {
+    "hotel": "Grand Hyatt Seoul",
+    "city": "Seoul",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 304.0,
+    "median_usd_of_fridays": 496.0,
+    "fridays_compared": 5,
+    "pct_below_median": 38.7,
+    "observed": "2026-10-22",
+    "country": "South Korea"
+   },
+   {
+    "hotel": "Signiel Seoul",
+    "city": "Seoul",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 515.0,
+    "median_usd_of_fridays": 692.5,
+    "fridays_compared": 6,
+    "pct_below_median": 25.6,
+    "observed": "2026-10-22",
+    "country": "South Korea"
    },
    {
     "hotel": "InterContinental Seoul COEX",
@@ -114,7 +172,44 @@
     "median_usd_of_fridays": 657.0,
     "fridays_compared": 5,
     "pct_below_median": 23.0,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "South Korea"
+   },
+   {
+    "hotel": "Grand Hyatt Tokyo",
+    "city": "Tokyo",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 449.0,
+    "median_usd_of_fridays": 554.5,
+    "fridays_compared": 6,
+    "pct_below_median": 19.0,
+    "observed": "2026-10-22",
+    "country": "Japan"
+   },
+   {
+    "hotel": "Andaz Tokyo Toranomon Hills",
+    "city": "Tokyo",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 749.0,
+    "median_usd_of_fridays": 917.0,
+    "fridays_compared": 6,
+    "pct_below_median": 18.3,
+    "observed": "2026-10-22",
+    "country": "Japan"
+   },
+   {
+    "hotel": "Park Hyatt Sydney",
+    "city": "Sydney",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 987.0,
+    "median_usd_of_fridays": 1219.5,
+    "fridays_compared": 6,
+    "pct_below_median": 19.1,
+    "observed": "2026-10-22",
+    "country": "Australia"
    },
    {
     "hotel": "JW Marriott Hong Kong",
@@ -125,7 +220,20 @@
     "median_usd_of_fridays": 382.0,
     "fridays_compared": 6,
     "pct_below_median": 19.6,
-    "observed": "2026-10-22"
+    "observed": "2026-10-22",
+    "country": "Hong Kong"
+   },
+   {
+    "hotel": "Mandarin Oriental Taipei",
+    "city": "Taipei",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 494.0,
+    "median_usd_of_fridays": 770.0,
+    "fridays_compared": 5,
+    "pct_below_median": 35.8,
+    "observed": "2026-10-22",
+    "country": "Taiwan"
    }
   ]
  },
