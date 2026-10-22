@@ -1,0 +1,903 @@
+{
+ "snapshot_date": "2026-10-22",
+ "generated_at_wib": "2026-10-22 12:43",
+ "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
+ "health": {
+  "hotels": 50,
+  "hotel_cities": 11,
+  "routes": 68,
+  "fs_nonstop_routes": 13,
+  "days_window": 30,
+  "hotel_days": 29,
+  "flight_days": 30,
+  "since": "2026-07-03",
+  "hotel_today": true,
+  "flight_today": true
+ },
+ "cheapest_friday": {
+  "status": "ada",
+  "rows": [
+   {
+    "hotel": "Pullman Phuket Panwa Beach Resort",
+    "city": "Phuket",
+    "stars": "5",
+    "cheapest_friday": "2026-10-30",
+    "price_usd_per_night": 119.0,
+    "median_usd_of_fridays": 212.5,
+    "fridays_compared": 6,
+    "pct_below_median": 44.0,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Grand Hyatt Seoul",
+    "city": "Seoul",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 304.0,
+    "median_usd_of_fridays": 496.0,
+    "fridays_compared": 5,
+    "pct_below_median": 38.7,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Mandarin Oriental Taipei",
+    "city": "Taipei",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 494.0,
+    "median_usd_of_fridays": 770.0,
+    "fridays_compared": 5,
+    "pct_below_median": 35.8,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Novotel Phuket Kamala Beach",
+    "city": "Phuket",
+    "stars": "4",
+    "cheapest_friday": "2026-10-30",
+    "price_usd_per_night": 126.0,
+    "median_usd_of_fridays": 184.5,
+    "fridays_compared": 6,
+    "pct_below_median": 31.7,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Phuket Marriott Resort Merlin Beach",
+    "city": "Phuket",
+    "stars": "5",
+    "cheapest_friday": "2026-10-30",
+    "price_usd_per_night": 179.0,
+    "median_usd_of_fridays": 256.5,
+    "fridays_compared": 6,
+    "pct_below_median": 30.2,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Parkroyal Collection Marina Bay",
+    "city": "Singapore",
+    "stars": "5",
+    "cheapest_friday": "2026-11-27",
+    "price_usd_per_night": 238.0,
+    "median_usd_of_fridays": 328.5,
+    "fridays_compared": 6,
+    "pct_below_median": 27.5,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Signiel Seoul",
+    "city": "Seoul",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 515.0,
+    "median_usd_of_fridays": 692.5,
+    "fridays_compared": 6,
+    "pct_below_median": 25.6,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "Keemala Phuket",
+    "city": "Phuket",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 636.0,
+    "median_usd_of_fridays": 832.0,
+    "fridays_compared": 6,
+    "pct_below_median": 23.6,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "InterContinental Seoul COEX",
+    "city": "Seoul",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 506.0,
+    "median_usd_of_fridays": 657.0,
+    "fridays_compared": 5,
+    "pct_below_median": 23.0,
+    "observed": "2026-10-22"
+   },
+   {
+    "hotel": "JW Marriott Hong Kong",
+    "city": "Hong Kong",
+    "stars": "5",
+    "cheapest_friday": "2026-12-04",
+    "price_usd_per_night": 307.0,
+    "median_usd_of_fridays": 382.0,
+    "fridays_compared": 6,
+    "pct_below_median": 19.6,
+    "observed": "2026-10-22"
+   }
+  ]
+ },
+ "lowest_rate_down": {
+  "status": "menunggu_cek_ulang",
+  "morning_candidates": 2,
+  "rows": []
+ },
+ "cached_fares_down": {
+  "status": "ada",
+  "rows": [
+   {
+    "origin": "Hong Kong (HKG)",
+    "destination": "Taipei (TPE)",
+    "airline": "UO",
+    "departs": "2026-12-14",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 76.0,
+    "median_30d_usd": 101.0,
+    "data_points": 11,
+    "pct_below_median": 24.8,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/HKG1412TPE1"
+   },
+   {
+    "origin": "Tokyo (NRT)",
+    "destination": "Denpasar (DPS)",
+    "airline": "TR",
+    "departs": "2026-11-04",
+    "nonstop": false,
+    "stops": "1",
+    "cached_fare_usd": 194.0,
+    "median_30d_usd": 242.0,
+    "data_points": 11,
+    "pct_below_median": 19.8,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/NRT0411DPS1"
+   },
+   {
+    "origin": "Denpasar (DPS)",
+    "destination": "Singapore (SIN)",
+    "airline": "TR",
+    "departs": "2027-01-22",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 49.0,
+    "median_30d_usd": 60.0,
+    "data_points": 15,
+    "pct_below_median": 18.3,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/DPS2201SIN1"
+   },
+   {
+    "origin": "Hong Kong (HKG)",
+    "destination": "Jakarta (CGK)",
+    "airline": "TR",
+    "departs": "2026-10-26",
+    "nonstop": false,
+    "stops": "1",
+    "cached_fare_usd": 157.0,
+    "median_30d_usd": 191.0,
+    "data_points": 7,
+    "pct_below_median": 17.8,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/HKG2610CGK1"
+   },
+   {
+    "origin": "Kuala Lumpur (KUL)",
+    "destination": "Denpasar (DPS)",
+    "airline": "AK",
+    "departs": "2026-11-28",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 68.0,
+    "median_30d_usd": 82.0,
+    "data_points": 13,
+    "pct_below_median": 17.1,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/KUL2811DPS1"
+   },
+   {
+    "origin": "Bangkok (BKK)",
+    "destination": "Singapore (SIN)",
+    "airline": "TR",
+    "departs": "2027-04-08",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 70.0,
+    "median_30d_usd": 84.0,
+    "data_points": 9,
+    "pct_below_median": 16.7,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/BKK0804SIN1"
+   },
+   {
+    "origin": "Tokyo (NRT)",
+    "destination": "Singapore (SIN)",
+    "airline": "TR",
+    "departs": "2026-11-05",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 151.0,
+    "median_30d_usd": 180.0,
+    "data_points": 10,
+    "pct_below_median": 16.1,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/NRT0511SIN1"
+   },
+   {
+    "origin": "Singapore (SIN)",
+    "destination": "Taipei (TPE)",
+    "airline": "TR",
+    "departs": "2026-10-27",
+    "nonstop": true,
+    "stops": "0",
+    "cached_fare_usd": 122.0,
+    "median_30d_usd": 145.0,
+    "data_points": 10,
+    "pct_below_median": 15.9,
+    "observed": "2026-10-22",
+    "link": "https://www.aviasales.com/search/SIN2710TPE1"
+   }
+  ]
+ },
+ "fs_nonstop": {
+  "status": "ada",
+  "rows": [
+   {
+    "origin": "Jakarta (CGK)",
+    "destination": "Hong Kong (HKG)",
+    "airline": "GA",
+    "departs": "2026-11-26",
+    "cached_fare_usd": 164.0,
+    "observed": "2026-10-22",
+    "earlier_points": 0,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/CGK2611HKG1"
+   },
+   {
+    "origin": "Jakarta (CGK)",
+    "destination": "Jeddah (JED)",
+    "airline": "GA",
+    "departs": "2026-11-10",
+    "cached_fare_usd": 488.0,
+    "observed": "2026-10-22",
+    "earlier_points": 2,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/CGK1011JED1"
+   },
+   {
+    "origin": "Jakarta (CGK)",
+    "destination": "Tokyo (NRT)",
+    "airline": "JL",
+    "departs": "2026-11-13",
+    "cached_fare_usd": 468.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/CGK1311NRT1"
+   },
+   {
+    "origin": "Jakarta (CGK)",
+    "destination": "Taipei (TPE)",
+    "airline": "JX",
+    "departs": "2026-11-21",
+    "cached_fare_usd": 217.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/CGK2111TPE1"
+   },
+   {
+    "origin": "Denpasar (DPS)",
+    "destination": "Hong Kong (HKG)",
+    "airline": "HX",
+    "departs": "2026-12-10",
+    "cached_fare_usd": 198.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/DPS1012HKG1"
+   },
+   {
+    "origin": "Denpasar (DPS)",
+    "destination": "Tokyo (NRT)",
+    "airline": "GA",
+    "departs": "2026-12-01",
+    "cached_fare_usd": 374.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/DPS0112NRT1"
+   },
+   {
+    "origin": "Denpasar (DPS)",
+    "destination": "Taipei (TPE)",
+    "airline": "JX",
+    "departs": "2026-11-23",
+    "cached_fare_usd": 215.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/DPS2311TPE1"
+   },
+   {
+    "origin": "Hong Kong (HKG)",
+    "destination": "Jakarta (CGK)",
+    "airline": "GA",
+    "departs": "2026-10-28",
+    "cached_fare_usd": 271.0,
+    "observed": "2026-10-22",
+    "earlier_points": 2,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/HKG2810CGK1"
+   },
+   {
+    "origin": "Hong Kong (HKG)",
+    "destination": "Denpasar (DPS)",
+    "airline": "HX",
+    "departs": "2026-12-01",
+    "cached_fare_usd": 209.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/HKG0112DPS1"
+   },
+   {
+    "origin": "Jeddah (JED)",
+    "destination": "Jakarta (CGK)",
+    "airline": "SV",
+    "departs": "2027-01-17",
+    "cached_fare_usd": 475.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/JED1701CGK1"
+   },
+   {
+    "origin": "Tokyo (NRT)",
+    "destination": "Jakarta (CGK)",
+    "airline": "NH",
+    "departs": "2027-01-16",
+    "cached_fare_usd": 597.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/NRT1601CGK1"
+   },
+   {
+    "origin": "Tokyo (NRT)",
+    "destination": "Denpasar (DPS)",
+    "airline": "GA",
+    "departs": "2026-11-27",
+    "cached_fare_usd": 722.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/NRT2711DPS1"
+   },
+   {
+    "origin": "Taipei (TPE)",
+    "destination": "Denpasar (DPS)",
+    "airline": "JX",
+    "departs": "2026-10-29",
+    "cached_fare_usd": 256.0,
+    "observed": "2026-10-22",
+    "earlier_points": 3,
+    "median_30d_usd": null,
+    "pct_vs_median": null,
+    "comparison": "too_little_history",
+    "link": "https://www.aviasales.com/search/TPE2910DPS1"
+   }
+  ]
+ },
+ "accuracy": {
+  "persistence": [
+   {
+    "computed": "2026-09-15",
+    "since": "2026-08-01",
+    "n_passed": 70,
+    "hotels_passed": 18,
+    "passed_within_2pct_next_day": 0.5714,
+    "comparable_within_2pct_next_day": 0.5164,
+    "n_comparable": 122,
+    "all_tracked_within_2pct_next_day": 0.6255,
+    "difference_pp": 5.5,
+    "ci95_low": -26.19,
+    "ci95_high": 29.9
+   },
+   {
+    "computed": "2026-09-21",
+    "since": "2026-08-01",
+    "n_passed": 73,
+    "hotels_passed": 19,
+    "passed_within_2pct_next_day": 0.5753,
+    "comparable_within_2pct_next_day": 0.5,
+    "n_comparable": 130,
+    "all_tracked_within_2pct_next_day": 0.6269,
+    "difference_pp": 7.53,
+    "ci95_low": -20.59,
+    "ci95_high": 30.61
+   },
+   {
+    "computed": "2026-09-28",
+    "since": "2026-08-01",
+    "n_passed": 80,
+    "hotels_passed": 20,
+    "passed_within_2pct_next_day": 0.575,
+    "comparable_within_2pct_next_day": 0.5069,
+    "n_comparable": 144,
+    "all_tracked_within_2pct_next_day": 0.6251,
+    "difference_pp": 6.81,
+    "ci95_low": -20.55,
+    "ci95_high": 28.59
+   },
+   {
+    "computed": "2026-10-05",
+    "since": "2026-08-01",
+    "n_passed": 86,
+    "hotels_passed": 21,
+    "passed_within_2pct_next_day": 0.5581,
+    "comparable_within_2pct_next_day": 0.4753,
+    "n_comparable": 162,
+    "all_tracked_within_2pct_next_day": 0.6202,
+    "difference_pp": 8.28,
+    "ci95_low": -16.91,
+    "ci95_high": 29.47
+   },
+   {
+    "computed": "2026-10-12",
+    "since": "2026-08-01",
+    "n_passed": 92,
+    "hotels_passed": 23,
+    "passed_within_2pct_next_day": 0.5543,
+    "comparable_within_2pct_next_day": 0.4615,
+    "n_comparable": 182,
+    "all_tracked_within_2pct_next_day": 0.6138,
+    "difference_pp": 9.28,
+    "ci95_low": -15.51,
+    "ci95_high": 28.65
+   },
+   {
+    "computed": "2026-10-19",
+    "since": "2026-08-01",
+    "n_passed": 108,
+    "hotels_passed": 24,
+    "passed_within_2pct_next_day": 0.5463,
+    "comparable_within_2pct_next_day": 0.4739,
+    "n_comparable": 211,
+    "all_tracked_within_2pct_next_day": 0.6095,
+    "difference_pp": 7.24,
+    "ci95_low": -14.78,
+    "ci95_high": 25.97
+   }
+  ],
+  "afternoon_recheck": {
+   "since": "2026-10-15",
+   "counts": {
+    "COCOK": 8,
+    "GESER": 1,
+    "MELESET": 5
+   },
+   "rows": [
+    {
+     "checked": "2026-10-21 16:31",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-20",
+     "morning_usd": 1191.0,
+     "recheck_usd": 1376.0,
+     "diff_pct": 15.5,
+     "ota": "Agoda.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-10-21 16:31",
+     "hotel": "Phuket Marriott Resort Merlin Beach",
+     "stay": "2026-10-30",
+     "morning_usd": 179.0,
+     "recheck_usd": 179.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-20 16:35",
+     "hotel": "Phuket Marriott Resort Merlin Beach",
+     "stay": "2026-10-30",
+     "morning_usd": 179.0,
+     "recheck_usd": 179.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-19 17:11",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-13",
+     "morning_usd": 1124.0,
+     "recheck_usd": 1296.0,
+     "diff_pct": 15.3,
+     "ota": "Agoda.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-10-17 15:44",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-10-30",
+     "morning_usd": 327.0,
+     "recheck_usd": 327.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-17 15:44",
+     "hotel": "Pullman Phuket Panwa Beach Resort",
+     "stay": "2026-11-06",
+     "morning_usd": 162.0,
+     "recheck_usd": 162.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-17 15:44",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-13",
+     "morning_usd": 1132.0,
+     "recheck_usd": 1302.0,
+     "diff_pct": 15.0,
+     "ota": "Agoda.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-10-16 16:13",
+     "hotel": "Pullman Phuket Panwa Beach Resort",
+     "stay": "2026-10-30",
+     "morning_usd": 107.0,
+     "recheck_usd": 107.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-16 16:13",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-10-30",
+     "morning_usd": 323.0,
+     "recheck_usd": 326.0,
+     "diff_pct": 0.9,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-16 16:13",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-13",
+     "morning_usd": 1089.0,
+     "recheck_usd": 1273.0,
+     "diff_pct": 16.9,
+     "ota": "Booking.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-10-15 16:20",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-10-23",
+     "morning_usd": 946.0,
+     "recheck_usd": 998.0,
+     "diff_pct": 5.5,
+     "ota": "Vio.com",
+     "verdict": "GESER"
+    },
+    {
+     "checked": "2026-10-15 16:20",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-10-30",
+     "morning_usd": 337.0,
+     "recheck_usd": 338.0,
+     "diff_pct": 0.3,
+     "ota": "Shangri-La.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-15 16:20",
+     "hotel": "Pullman Phuket Panwa Beach Resort",
+     "stay": "2026-10-30",
+     "morning_usd": 107.0,
+     "recheck_usd": 107.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-15 16:20",
+     "hotel": "Sofitel Kuala Lumpur Damansara",
+     "stay": "2026-10-30",
+     "morning_usd": 101.0,
+     "recheck_usd": 124.0,
+     "diff_pct": 22.8,
+     "ota": "Trip.com",
+     "verdict": "MELESET"
+    }
+   ]
+  },
+  "hotel_checks": {
+   "n": 17,
+   "on_sale_yes": 9,
+   "on_sale_no": 8,
+   "last_checked": "2026-08-01",
+   "rows": [
+    {
+     "checked": "2026-08-01",
+     "hotel": "Mandarin Oriental Bangkok",
+     "stay": "2026-09-04",
+     "our_usd": 505.0,
+     "ota": "Booking.com",
+     "ota_shown": "595 (Rp 21,534,581 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-08-07",
+     "our_usd": 470.0,
+     "ota": "Agoda.com",
+     "ota_shown": "",
+     "tax_included": "",
+     "on_sale_when_checked": "no"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-08-07",
+     "our_usd": 470.0,
+     "ota": "Booking.com",
+     "ota_shown": "849 (Rp 30,724,634 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Mandarin Oriental Bangkok",
+     "stay": "2026-09-11",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "595 (Rp 21,534,581 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Mandarin Oriental Bangkok",
+     "stay": "2026-08-21",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "536 (Rp 19,381,128 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Mandarin Oriental Bangkok",
+     "stay": "2026-08-07",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "",
+     "tax_included": "",
+     "on_sale_when_checked": "no"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-08-28",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "684 (Rp 24,750,400 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-09-11",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "561 (Rp 20,287,213 / 2 malam)",
+     "tax_included": "ya",
+     "on_sale_when_checked": "yes"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-09-04",
+     "our_usd": null,
+     "ota": "Agoda.com",
+     "ota_shown": "",
+     "tax_included": "",
+     "on_sale_when_checked": "no"
+    },
+    {
+     "checked": "2026-08-01",
+     "hotel": "Keemala Phuket",
+     "stay": "2026-09-04",
+     "our_usd": null,
+     "ota": "Booking.com",
+     "ota_shown": "",
+     "tax_included": "",
+     "on_sale_when_checked": "no"
+    }
+   ]
+  },
+  "flight_checks": [
+   {
+    "checked": "2026-09-14",
+    "route": "DMK to SUB",
+    "departs": "2026-10-21",
+    "airline": "AK",
+    "stops": "1",
+    "cached_usd": 153.0,
+    "aviasales_live_usd": 171.0,
+    "google_live_usd": 188.0,
+    "diff_vs_aviasales_pct": 11.8,
+    "verdict": "MELESET"
+   },
+   {
+    "checked": "2026-09-14",
+    "route": "CGK to HKG",
+    "departs": "2026-09-24",
+    "airline": "TR",
+    "stops": "1",
+    "cached_usd": 100.0,
+    "aviasales_live_usd": 99.0,
+    "google_live_usd": 92.0,
+    "diff_vs_aviasales_pct": -1.0,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-09-14",
+    "route": "KUL to DPS",
+    "departs": "2026-11-19",
+    "airline": "AK",
+    "stops": "0",
+    "cached_usd": 78.0,
+    "aviasales_live_usd": 78.0,
+    "google_live_usd": 82.0,
+    "diff_vs_aviasales_pct": 0.0,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-09-14",
+    "route": "DPS to MEL",
+    "departs": "2026-12-13",
+    "airline": "OD",
+    "stops": "0",
+    "cached_usd": 133.0,
+    "aviasales_live_usd": null,
+    "google_live_usd": 126.0,
+    "diff_vs_aviasales_pct": null,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "BKK to KUL",
+    "departs": "2026-12-29",
+    "airline": "SL",
+    "stops": "1",
+    "cached_usd": 51.0,
+    "aviasales_live_usd": 64.0,
+    "google_live_usd": 125.0,
+    "diff_vs_aviasales_pct": 25.5,
+    "verdict": "MELESET"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "NRT to DPS",
+    "departs": "2026-11-03",
+    "airline": "TR",
+    "stops": "1",
+    "cached_usd": 167.0,
+    "aviasales_live_usd": 181.0,
+    "google_live_usd": 177.0,
+    "diff_vs_aviasales_pct": 8.4,
+    "verdict": "GESER"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "KUL to SUB",
+    "departs": "2026-11-12",
+    "airline": "QZ",
+    "stops": "0",
+    "cached_usd": 57.0,
+    "aviasales_live_usd": 56.0,
+    "google_live_usd": 60.0,
+    "diff_vs_aviasales_pct": -1.8,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "KUL to DPS",
+    "departs": "2026-11-16",
+    "airline": "AK",
+    "stops": "0",
+    "cached_usd": 72.0,
+    "aviasales_live_usd": 71.0,
+    "google_live_usd": null,
+    "diff_vs_aviasales_pct": -1.4,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "SUB to KUL",
+    "departs": "2026-11-05",
+    "airline": "QZ",
+    "stops": "0",
+    "cached_usd": 49.0,
+    "aviasales_live_usd": 49.0,
+    "google_live_usd": null,
+    "diff_vs_aviasales_pct": 0.0,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "HKG to TPE",
+    "departs": "2026-11-12",
+    "airline": "UO",
+    "stops": "0",
+    "cached_usd": 74.0,
+    "aviasales_live_usd": 73.0,
+    "google_live_usd": null,
+    "diff_vs_aviasales_pct": -1.4,
+    "verdict": "COCOK"
+   },
+   {
+    "checked": "2026-10-16",
+    "route": "DMK to SUB",
+    "departs": "2026-11-14",
+    "airline": "AK",
+    "stops": "1",
+    "cached_usd": 147.0,
+    "aviasales_live_usd": 149.0,
+    "google_live_usd": null,
+    "diff_vs_aviasales_pct": 1.4,
+    "verdict": "COCOK"
+   }
+  ]
+ },
+ "sections_failed": []
+}
