@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-10-24",
- "generated_at_wib": "2026-10-24 08:27",
+ "generated_at_wib": "2026-10-24 16:03",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -142,7 +142,7 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "terbit_kosong",
   "morning_candidates": 1,
   "rows": []
  },
@@ -522,10 +522,31 @@
    "since": "2026-10-15",
    "counts": {
     "COCOK": 9,
-    "GESER": 4,
+    "GESER": 5,
+    "HILANG": 1,
     "MELESET": 5
    },
    "rows": [
+    {
+     "checked": "2026-10-24 16:03",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-20",
+     "morning_usd": 1188.0,
+     "recheck_usd": 1366.0,
+     "diff_pct": 15.0,
+     "ota": "Agoda.com",
+     "verdict": "GESER"
+    },
+    {
+     "checked": "2026-10-24 16:03",
+     "hotel": "Phuket Marriott Resort Merlin Beach",
+     "stay": "2026-10-30",
+     "morning_usd": 178.0,
+     "recheck_usd": null,
+     "diff_pct": null,
+     "ota": "",
+     "verdict": "HILANG"
+    },
     {
      "checked": "2026-10-23 16:30",
      "hotel": "Park Hyatt Tokyo",
