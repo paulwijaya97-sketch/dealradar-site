@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-10-26",
- "generated_at_wib": "2026-10-26 08:15",
+ "generated_at_wib": "2026-10-26 17:25",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -166,9 +166,24 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "ada",
   "morning_candidates": 2,
-  "rows": []
+  "rows": [
+   {
+    "hotel": "Park Hyatt Tokyo",
+    "city": "Tokyo",
+    "stars": "5",
+    "stay_friday": "2026-11-20",
+    "price_usd_per_night": 1185.0,
+    "median_30d_usd": 1580.0,
+    "data_points": 23,
+    "pct_below_median": 25.0,
+    "lowest_rate_ota": "Vio.com",
+    "observed": "2026-10-26",
+    "rechecked_at_wib": "17:25",
+    "country": "Japan"
+   }
+  ]
  },
  "cached_fares_down": {
   "status": "ada",
@@ -560,12 +575,32 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 10,
-    "GESER": 6,
+    "COCOK": 11,
+    "GESER": 7,
     "HILANG": 1,
     "MELESET": 5
    },
    "rows": [
+    {
+     "checked": "2026-10-26 17:25",
+     "hotel": "Park Hyatt Tokyo",
+     "stay": "2026-11-20",
+     "morning_usd": 1179.0,
+     "recheck_usd": 1185.0,
+     "diff_pct": 0.5,
+     "ota": "Vio.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-26 17:25",
+     "hotel": "Novotel Phuket Kamala Beach",
+     "stay": "2026-11-27",
+     "morning_usd": 224.0,
+     "recheck_usd": 245.0,
+     "diff_pct": 9.4,
+     "ota": "Agoda.com",
+     "verdict": "GESER"
+    },
     {
      "checked": "2026-10-25 16:19",
      "hotel": "Park Hyatt Tokyo",
