@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-10-29",
- "generated_at_wib": "2026-10-29 09:14",
+ "generated_at_wib": "2026-10-29 18:02",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -562,9 +562,24 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "ada",
   "morning_candidates": 1,
-  "rows": []
+  "rows": [
+   {
+    "hotel": "Shangri-La Sydney",
+    "city": "Sydney",
+    "stars": "5",
+    "stay_friday": "2026-11-06",
+    "price_usd_per_night": 317.0,
+    "median_30d_usd": 433.0,
+    "data_points": 30,
+    "pct_below_median": 26.8,
+    "lowest_rate_ota": "Booking.com",
+    "observed": "2026-10-29",
+    "rechecked_at_wib": "18:02",
+    "country": "Australia"
+   }
+  ]
  },
  "cached_fares_down": {
   "status": "ada",
@@ -957,12 +972,22 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 15,
+    "COCOK": 16,
     "GESER": 7,
     "HILANG": 1,
     "MELESET": 5
    },
    "rows": [
+    {
+     "checked": "2026-10-29 18:02",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-11-06",
+     "morning_usd": 318.0,
+     "recheck_usd": 317.0,
+     "diff_pct": -0.3,
+     "ota": "Booking.com",
+     "verdict": "COCOK"
+    },
     {
      "checked": "2026-10-28 17:46",
      "hotel": "Park Hyatt Tokyo",
