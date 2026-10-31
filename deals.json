@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-10-31",
- "generated_at_wib": "2026-10-31 09:09",
+ "generated_at_wib": "2026-10-31 17:32",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -418,9 +418,38 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "ada",
   "morning_candidates": 3,
-  "rows": []
+  "rows": [
+   {
+    "hotel": "Sofitel Sydney Wentworth",
+    "city": "Sydney",
+    "stars": "5",
+    "stay_friday": "2026-11-27",
+    "price_usd_per_night": 311.0,
+    "median_30d_usd": 428.5,
+    "data_points": 8,
+    "pct_below_median": 27.4,
+    "lowest_rate_ota": "Booking.com",
+    "observed": "2026-10-31",
+    "rechecked_at_wib": "17:32",
+    "country": "Australia"
+   },
+   {
+    "hotel": "Novotel Phuket Kamala Beach",
+    "city": "Phuket",
+    "stars": "4",
+    "stay_friday": "2026-11-27",
+    "price_usd_per_night": 208.0,
+    "median_30d_usd": 303.0,
+    "data_points": 21,
+    "pct_below_median": 31.4,
+    "lowest_rate_ota": "Novotel",
+    "observed": "2026-10-31",
+    "rechecked_at_wib": "17:32",
+    "country": "Thailand"
+   }
+  ]
  },
  "cached_fares_down": {
   "status": "ada",
@@ -815,12 +844,42 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 16,
+    "COCOK": 18,
     "GESER": 7,
     "HILANG": 1,
-    "MELESET": 5
+    "MELESET": 6
    },
    "rows": [
+    {
+     "checked": "2026-10-31 17:32",
+     "hotel": "Sofitel Sydney Wentworth",
+     "stay": "2026-11-27",
+     "morning_usd": 315.0,
+     "recheck_usd": 311.0,
+     "diff_pct": -1.3,
+     "ota": "Booking.com",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-10-31 17:32",
+     "hotel": "Shangri-La Rasa Sayang Penang",
+     "stay": "2026-12-11",
+     "morning_usd": 189.0,
+     "recheck_usd": 270.0,
+     "diff_pct": 42.9,
+     "ota": "Agoda.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-10-31 17:32",
+     "hotel": "Novotel Phuket Kamala Beach",
+     "stay": "2026-11-27",
+     "morning_usd": 207.0,
+     "recheck_usd": 208.0,
+     "diff_pct": 0.5,
+     "ota": "Novotel",
+     "verdict": "COCOK"
+    },
     {
      "checked": "2026-10-29 18:02",
      "hotel": "Shangri-La Sydney",
