@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-11-01",
- "generated_at_wib": "2026-11-01 08:47",
+ "generated_at_wib": "2026-11-01 18:27",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -394,9 +394,24 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "ada",
   "morning_candidates": 1,
-  "rows": []
+  "rows": [
+   {
+    "hotel": "Four Seasons Hotel Sydney",
+    "city": "Sydney",
+    "stars": "5",
+    "stay_friday": "2026-11-20",
+    "price_usd_per_night": 382.0,
+    "median_30d_usd": 485.0,
+    "data_points": 9,
+    "pct_below_median": 21.2,
+    "lowest_rate_ota": "Agoda.com",
+    "observed": "2026-11-01",
+    "rechecked_at_wib": "18:27",
+    "country": "Australia"
+   }
+  ]
  },
  "cached_fares_down": {
   "status": "ada",
@@ -792,12 +807,22 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 18,
+    "COCOK": 19,
     "GESER": 7,
     "HILANG": 1,
     "MELESET": 6
    },
    "rows": [
+    {
+     "checked": "2026-11-01 18:27",
+     "hotel": "Four Seasons Hotel Sydney",
+     "stay": "2026-11-20",
+     "morning_usd": 382.0,
+     "recheck_usd": 382.0,
+     "diff_pct": 0.0,
+     "ota": "Agoda.com",
+     "verdict": "COCOK"
+    },
     {
      "checked": "2026-10-31 17:32",
      "hotel": "Sofitel Sydney Wentworth",
