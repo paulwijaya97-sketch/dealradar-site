@@ -1,13 +1,13 @@
 {
  "snapshot_date": "2026-11-02",
- "generated_at_wib": "2026-11-02 09:21",
+ "generated_at_wib": "2026-11-02 19:47",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
   "hotel_cities": 16,
   "hotel_countries": 11,
   "cities_without_country": [],
-  "routes": 68,
+  "routes": 74,
   "fs_nonstop_routes": 13,
   "days_window": 30,
   "hotel_days": 30,
@@ -466,7 +466,7 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "pagi_kosong",
+  "status": "terbit_kosong",
   "morning_candidates": 0,
   "rows": []
  },
