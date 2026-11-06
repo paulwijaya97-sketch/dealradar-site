@@ -1,13 +1,13 @@
 {
  "snapshot_date": "2026-11-06",
- "generated_at_wib": "2026-11-06 10:08",
+ "generated_at_wib": "2026-11-06 19:23",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
   "hotel_cities": 16,
   "hotel_countries": 11,
   "cities_without_country": [],
-  "routes": 74,
+  "routes": 82,
   "fs_nonstop_routes": 13,
   "days_window": 30,
   "hotel_days": 30,
@@ -502,7 +502,7 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "terbit_kosong",
   "morning_candidates": 3,
   "rows": []
  },
@@ -912,12 +912,42 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 24,
-    "GESER": 7,
+    "COCOK": 25,
+    "GESER": 8,
     "HILANG": 1,
-    "MELESET": 6
+    "MELESET": 7
    },
    "rows": [
+    {
+     "checked": "2026-11-06 19:23",
+     "hotel": "Novotel Phuket Kamala Beach",
+     "stay": "2026-11-20",
+     "morning_usd": 149.0,
+     "recheck_usd": 150.0,
+     "diff_pct": 0.7,
+     "ota": "Novotel",
+     "verdict": "COCOK"
+    },
+    {
+     "checked": "2026-11-06 19:23",
+     "hotel": "Hotel Nikko Saigon",
+     "stay": "2026-11-20",
+     "morning_usd": 114.0,
+     "recheck_usd": 158.0,
+     "diff_pct": 38.6,
+     "ota": "Agoda.com",
+     "verdict": "MELESET"
+    },
+    {
+     "checked": "2026-11-06 19:23",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-11-13",
+     "morning_usd": 284.0,
+     "recheck_usd": 312.0,
+     "diff_pct": 9.9,
+     "ota": "Booking.com",
+     "verdict": "GESER"
+    },
     {
      "checked": "2026-11-05 19:41",
      "hotel": "Hotel Nikko Saigon",
