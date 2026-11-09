@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-11-09",
- "generated_at_wib": "2026-11-09 09:32",
+ "generated_at_wib": "2026-11-09 20:16",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -358,7 +358,7 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "terbit_kosong",
   "morning_candidates": 1,
   "rows": []
  },
@@ -780,12 +780,22 @@
   "afternoon_recheck": {
    "since": "2026-10-15",
    "counts": {
-    "COCOK": 30,
+    "COCOK": 31,
     "GESER": 8,
     "HILANG": 1,
     "MELESET": 7
    },
    "rows": [
+    {
+     "checked": "2026-11-09 20:16",
+     "hotel": "Sofitel Sydney Wentworth",
+     "stay": "2026-11-27",
+     "morning_usd": 318.0,
+     "recheck_usd": 320.0,
+     "diff_pct": 0.6,
+     "ota": "Booking.com",
+     "verdict": "COCOK"
+    },
     {
      "checked": "2026-11-08 18:28",
      "hotel": "Novotel Phuket Kamala Beach",
