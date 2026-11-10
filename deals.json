@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-11-10",
- "generated_at_wib": "2026-11-10 05:58",
+ "generated_at_wib": "2026-11-10 11:20",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -335,7 +335,7 @@
  },
  "lowest_rate_down": {
   "status": "menunggu_cek_ulang",
-  "morning_candidates": 2,
+  "morning_candidates": 1,
   "rows": []
  },
  "cached_fares_down": {
