@@ -1,6 +1,6 @@
 {
  "snapshot_date": "2026-11-13",
- "generated_at_wib": "2026-11-13 10:14",
+ "generated_at_wib": "2026-11-13 19:32",
  "notes": "Reference prices in USD from cached quotes, not live searches. Flights one-way; hotels per night, 2-night stay from Friday. A price here does not mean it can be booked.",
  "health": {
   "hotels": 145,
@@ -454,7 +454,7 @@
   ]
  },
  "lowest_rate_down": {
-  "status": "menunggu_cek_ulang",
+  "status": "terbit_kosong",
   "morning_candidates": 1,
   "rows": []
  },
@@ -877,11 +877,21 @@
    "since": "2026-10-15",
    "counts": {
     "COCOK": 33,
-    "GESER": 9,
+    "GESER": 10,
     "HILANG": 1,
     "MELESET": 7
    },
    "rows": [
+    {
+     "checked": "2026-11-13 19:32",
+     "hotel": "Shangri-La Sydney",
+     "stay": "2026-11-27",
+     "morning_usd": 332.0,
+     "recheck_usd": 346.0,
+     "diff_pct": 4.2,
+     "ota": "Booking.com",
+     "verdict": "GESER"
+    },
     {
      "checked": "2026-11-12 20:08",
      "hotel": "Shangri-La Sydney",
